@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+  </head>
+  <body>
+    <header class="flex flex-col items-center justify-between h-[100vh] w-full bg-[url('/Assets/header-bg.jpg')] bg-cover bg-center [transform:rotateY(180deg)] ">
+      <nav class="flex justify-between gap-4 items-center m-4 shadow-md h-20 w-full max-w-screen-lg bg-blue-200 my-5 mx-10 rounded-xl px-6 [transform:rotateY(180deg)]">
+
+        <div class="text-xl font-bold text-blue-700">Flights</div>
+        <ul class="flex justify-center items-center gap-4">
+          <li class="hover:text-blue-500 cursor-pointer">Flights</li>
+          <li class="hover:text-blue-500 cursor-pointer">Hotels</li>
+          <li class="hover:text-blue-500 cursor-pointer">Schedule</li>
+          <li class="hover:text-blue-500 cursor-pointer">Testimonials</li>
+        </ul>
+        <div class="flex justify-center gap-4">
+            <div class="flex items-center justify-center border border-gray-300 rounded-full px-4 py-1 shadow-md bg-white space-x-2 ">
+            <i class="uil uil-phone text-xl text-blue-500"></i>
+            <span class="font-semibold text-gray-700 text-xs"> Call US</span>
+            </div>
+            <div class="flex items-center justify-center border border-gray-300 rounded-full px-4 py-1 shadow-md bg-black space-x-2 ">
+            <i class="uil uil-calendar-alt text-xl text-blue-500"></i>
+            <span class="font-semibold text-white text-xs">My Booking</span>
+            </div>
+        </div>
+      </nav>
+    </header>
+  </body>
+</html>
